@@ -23,7 +23,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btnDial"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="40dp"
@@ -34,25 +34,25 @@
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/btnSecond"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
         android:text="開啟另一個ACTIVITY"
         android:textSize="18sp"
-        app:layout_constraintEnd_toEndOf="@+id/button"
-        app:layout_constraintStart_toStartOf="@+id/button"
-        app:layout_constraintTop_toBottomOf="@+id/button" />
+        app:layout_constraintEnd_toEndOf="@+id/btnDial"
+        app:layout_constraintStart_toStartOf="@+id/btnDial"
+        app:layout_constraintTop_toBottomOf="@+id/btnDial" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/btnFinish"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
         android:text="結束"
         android:textSize="18sp"
-        app:layout_constraintEnd_toEndOf="@+id/button2"
-        app:layout_constraintStart_toStartOf="@+id/button2"
-        app:layout_constraintTop_toBottomOf="@+id/button2" />
+        app:layout_constraintEnd_toEndOf="@+id/btnSecond"
+        app:layout_constraintStart_toStartOf="@+id/btnSecond"
+        app:layout_constraintTop_toBottomOf="@+id/btnSecond" />
 
 </android.support.constraint.ConstraintLayout>
